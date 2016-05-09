@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    long int v,t,a;
+    while(scanf("%ld %ld",&t,&a) !=EOF)
+    {
+        v=2*a*t;
+        printf("%d\n",v);
+    }
+    return 0;
+}
