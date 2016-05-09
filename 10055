@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    unsigned long int a,b,temp,c;
+    while(scanf("%lu %lu",&a,&b) !=EOF)
+    {
+        if(a<b)
+        {
+            temp=a;
+            a=b;
+            b=temp;
+        }
+        c=a-b;
+        printf("%lu\n",c);
+    }
+    return 0;
+}
